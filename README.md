@@ -1,0 +1,2 @@
+# DesafioAppCadastro
+Fazer um app que tenha a classe usuário, que possa trabalhar com email e senha. A primeira vez que o usuário inserir o email e senha devemos habilitar o botão de cadastro. Ao clicar em cadastrar devemos limpar os campos, ao inserir os dados pela segunda vez, e clicar no botão login devemos validar o usuário e senha e caso seja true devemos pintar a tela de verde, se for false pintamos de vermelho.
