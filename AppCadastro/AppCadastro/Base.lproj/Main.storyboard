@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cadastro Usuário-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Cadastro Usuário" id="BYZ-38-t0r" customClass="ViewController" customModule="AppCadastro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="LoginView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="senha" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w98-Dv-Acv">
+                                <rect key="frame" x="10" y="230" width="394" height="34"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="e-mail" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-3V-WCu">
+                                <rect key="frame" x="10" y="152" width="394" height="34"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cadastro Usuário" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcf-gX-ACv">
+                                <rect key="frame" x="20" y="81" width="363" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.62546397600000003" green="0.15195150709999999" blue="0.97778075929999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.91170436939999999" green="0.36757520440000002" blue="0.97037595180000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYS-iA-frQ">
+                                <rect key="frame" x="128" y="303" width="158" height="77"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                <color key="tintColor" red="0.78268838529999996" green="0.59668881610000002" blue="0.99685727079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Cadastrar" backgroundImage="checkmark.rectangle.fill" catalog="system">
+                                    <color key="titleColor" red="0.6254639759747278" green="0.15195150710496497" blue="0.97778075929999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzM-fN-erw">
+                                <rect key="frame" x="128" y="416" width="158" height="72"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                <color key="tintColor" red="0.78268838529999996" green="0.59668881610000002" blue="0.99685727079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login" backgroundImage="checkmark.rectangle.fill" catalog="system">
+                                    <color key="titleColor" red="0.62546397600000003" green="0.15195150709999999" blue="0.97778075929999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78351450960000002" green="0.68760234139999998" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.78268838529999996" green="0.59668881610000002" blue="0.99685727079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="w98-Dv-Acv" firstAttribute="trailing" secondItem="Vbs-3V-WCu" secondAttribute="trailing" id="DjL-qc-EZx"/>
+                            <constraint firstItem="jYS-iA-frQ" firstAttribute="trailing" secondItem="w98-Dv-Acv" secondAttribute="trailing" id="RUO-fP-MYO"/>
+                            <constraint firstItem="DzM-fN-erw" firstAttribute="centerX" secondItem="jYS-iA-frQ" secondAttribute="centerX" id="U8Y-ue-hZG"/>
+                            <constraint firstItem="Vbs-3V-WCu" firstAttribute="trailing" secondItem="Xcf-gX-ACv" secondAttribute="trailing" id="pHZ-rs-Y7v"/>
+                            <constraint firstItem="jYS-iA-frQ" firstAttribute="centerY" secondItem="DzM-fN-erw" secondAttribute="centerY" id="vUi-iK-poW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cadastrarButton" destination="jYS-iA-frQ" id="RYK-V3-Mrt"/>
+                        <outlet property="emailTextField" destination="Vbs-3V-WCu" id="YZ6-VK-PyH"/>
+                        <outlet property="passwordTextField" destination="w98-Dv-Acv" id="cC7-1O-jjw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="107.14285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkmark.rectangle.fill" catalog="system" width="128" height="93"/>
+    </resources>
+</document>
